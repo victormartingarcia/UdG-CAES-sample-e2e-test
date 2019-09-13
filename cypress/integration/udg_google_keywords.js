@@ -1,5 +1,5 @@
 describe('UdG google ranking', function() {
-    it('UdG website rankks first for both "UdG" and "Universitat de Girona" keywords', function() {
+    it('UdG website ranks first for both "UdG" and "Universitat de Girona" keywords', function() {
         cy.log('Visit ' + Cypress.config().baseUrl);
         cy.visit('/');
 

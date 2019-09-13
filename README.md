@@ -22,7 +22,7 @@ cd UdG-CAES-sample-e2e-test
 npm install
 ```
 
-Open cypress runner, where we can run our e2e test [i_am_feeling_lucky.spec.js]
+Open cypress runner, where we can run our e2e test [udg_google_keywords.spec.js]
 
 ```
 npm run cypress:open
