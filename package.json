@@ -1,0 +1,16 @@
+{
+    "name": "udg_caes_sample_e2e_test",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "cypress:open": "CYPRESS_baseUrl=https://www.google.com cypress open"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "cypress": "^3.2.0"
+    }
+}
