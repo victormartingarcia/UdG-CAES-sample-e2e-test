@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "cypress:open": "CYPRESS_baseUrl=https://www.google.com cypress open"
+        "cypress:open": "CYPRESS_baseUrl=http://127.0.0.1:5000 cypress open"
     },
     "keywords": [],
     "author": "",
