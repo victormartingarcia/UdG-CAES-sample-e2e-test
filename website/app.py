@@ -31,11 +31,13 @@ def utc2local (utc):
 def home():
     return """
         <h2>This is a test web application for CAES stress test demonstration</h2>
+        <div style="display:none;background-color:red;color: white;font-size: 4em;position: absolute;">༼ つ ◕_◕ ༽つ</div>
         <br/>
         <br/>
         <ul>
             <li><h3><a href="/insert_fake_user">Insert a fake user</a></h3></li>
             <li><h3><a href="/list_fake_users">List fake users</a></h3></li>
+            <li><h3><a href="#" onClick='document.getElementsByTagName("div")[0].style.display === "none" ? document.getElementsByTagName("div")[0].style.display = "block" : document.getElementsByTagName("div")[0].style.display = "none"'>Toggle weird monster</a></h3></li>
         </ul>
     """
 

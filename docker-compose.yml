@@ -20,6 +20,7 @@ services:
     volumes:
       - ./website/:/website/
     environment:
+      - FLASK_ENV=development
       - SQL_DATABASE=caes_stress_test
       - SQL_USER=caes_username
       - SQL_PASSWORD=caes_password

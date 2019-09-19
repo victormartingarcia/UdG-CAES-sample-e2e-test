@@ -3,6 +3,13 @@ describe('toy website e2e test', function() {
         cy.log('Visit ' + Cypress.config().baseUrl);
         cy.visit('/');
 
+        /*
+        // Adding this code should make e2e test fail!!!
+        cy.get('a')
+            .contains('Toggle weird monster')
+            .click();
+        */
+
         cy.get('a')
             .contains('Insert a fake user')
             .click();
